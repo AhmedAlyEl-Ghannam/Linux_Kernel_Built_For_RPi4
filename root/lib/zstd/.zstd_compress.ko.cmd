@@ -1,0 +1,1 @@
+cmd_lib/zstd/zstd_compress.ko := aarch64-rpi4-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o lib/zstd/zstd_compress.ko lib/zstd/zstd_compress.o lib/zstd/zstd_compress.mod.o;  true

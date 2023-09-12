@@ -1,0 +1,30 @@
+# For more options and information see
+# http://rpf.io/configtxt
+# Some settings may impact device functionality. See link above for details
+
+# #
+# #AHMED EDITS#
+#kernel=Image
+kernel=u-boot.bin
+# Enable UART so we can use a TTL cable.
+enable_uart=1
+# Use the appropriate DTB for our device.
+device_tree=bcm2711-rpi-4-b.dtb
+
+# Disable Bluetooth via device tree overlay.
+# It's a complicated explanation that you
+# can read about here: https://youtu.be/68jbiuf27AY?t=431
+# IF YOU SKIP THIS STEP, your serial connection will not
+# work correctly. (Eng. Moatasem's Note)
+dtoverlay=disable-bt
+# #AHMED EDITS#
+# #
+
+# Run in 64-bit mode
+arm_64bit=1
+
+# https://gist.github.com/G-UK/ee7edc4844f14fec12450b2211fc886e
+ngpu_mem=512
+narm_64bit=1
+ndtoverlay=vc4-fkms-v3d
+# https://gist.github.com/G-UK/ee7edc4844f14fec12450b2211fc886e

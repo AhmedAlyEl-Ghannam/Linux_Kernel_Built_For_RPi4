@@ -1,0 +1,1 @@
+cmd_lib/crypto/libcurve25519-generic.o := aarch64-rpi4-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o lib/crypto/libcurve25519-generic.o @lib/crypto/libcurve25519-generic.mod 
