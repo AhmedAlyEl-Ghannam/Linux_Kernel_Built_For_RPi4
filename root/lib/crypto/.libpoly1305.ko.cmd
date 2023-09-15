@@ -1,1 +1,0 @@
-cmd_lib/crypto/libpoly1305.ko := aarch64-rpi4-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o lib/crypto/libpoly1305.ko lib/crypto/libpoly1305.o lib/crypto/libpoly1305.mod.o;  true

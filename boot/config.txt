@@ -24,7 +24,7 @@ dtoverlay=disable-bt
 arm_64bit=1
 
 # https://gist.github.com/G-UK/ee7edc4844f14fec12450b2211fc886e
-ngpu_mem=512
-narm_64bit=1
-ndtoverlay=vc4-fkms-v3d
+#ngpu_mem=512
+#narm_64bit=1
+#ndtoverlay=vc4-fkms-v3d
 # https://gist.github.com/G-UK/ee7edc4844f14fec12450b2211fc886e
