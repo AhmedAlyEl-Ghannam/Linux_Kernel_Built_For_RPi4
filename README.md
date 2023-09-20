@@ -8,7 +8,6 @@ Notes:
        1. i7 4790k @4.4GHz
        1. 16GB DDR3 RAM @2400MHz
        1. GTX 980ti (irrelevant to this project) \
-This piece of info is a bit irrelevant for this project since the built was done under a minute.
        1. A Kingston HyperX Savage SSD.
        
        ![](README_Photos/drip.png)
