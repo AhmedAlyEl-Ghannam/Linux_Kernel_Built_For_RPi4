@@ -7,7 +7,7 @@ Notes:
   2. This kernel was built on an Ubuntu 22.04 system on my trusty ten-year-old PC with the following specs:
        1. i7 4790k @4.4GHz
        1. 16GB DDR3 RAM @2400MHz
-       1. GTX 980ti (irrelevant to this project) \
+       1. GTX 980ti (irrelevant to this project) 
        1. A Kingston HyperX Savage SSD.
        
        ![](README_Photos/drip.png)
